@@ -1,0 +1,5 @@
+n1=int(input('digite numero '))
+dobro=(n1*2)
+tripo=(n1*3)
+raiz=(n1**(1/2))
+print('o dobro do seu numero é {} o tripo é {} e a raiz é {}.'.format(dobro,tripo,raiz))

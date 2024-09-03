@@ -1,0 +1,12 @@
+cadastro=[]
+cadastro.append(input("digite seu nome: "))
+cadastro.append(input("digite seu numero: "))
+cadastro.append(input("digite seu rg: "))
+cadastro.append(input('digite o numero do seu cartão: '))
+cadastro.append(input('numero de traszinho pf: '))
+print("os dados cadastrado foram:")
+print("Nome: ", cadastro [0])
+print("numero: ", cadastro [1])
+print("rg: ", cadastro [2])
+print("cartão: ", cadastro [3])
+print("codigo: ", cadastro [4])
