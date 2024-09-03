@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    
+    <script>
+        var nome = window.prompt('nome')
+        document.writeln(`seu <strong>${nome} </strong> tem ${nome.length} letras <br> `)
+        document.writeln(`seu ${nome} em + ${nome.toUpperCase()}  <br> ` )
+        document.writeln(`seu ${nome} em - ${nome.toLowerCase()}  <br> `)
+        var valor = 1545
+        valor.toLocaleString('pt-br', {style: 'currency', currency:'BRL'})
+        document.write(`voce recebe ${valor.toLocaleString('pt-br', {style: 'currency', currency:'BRL'})}`)
+        
+        </script>
+</body>
+</html>
