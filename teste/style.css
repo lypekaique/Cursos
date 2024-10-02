@@ -1,0 +1,94 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo e cabeçalho */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #68a78c;
+    color: white;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+/* Linha do tempo */
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.timeline-item {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+}
+
+.timeline-item h2 {
+    font-size: 1.75rem;
+    color: #68a78c;
+    margin-bottom: 1rem;
+}
+
+.timeline-item p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.timeline-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Efeito de destaque ao passar o mouse */
+.timeline-item:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+/* Animação simples */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.timeline-item {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Estilo responsivo */
+@media (max-width: 768px) {
+    .timeline-item h2 {
+        font-size: 1.5rem;
+    }
+
+    .timeline-item p {
+        font-size: 0.9rem;
+    }
+}
