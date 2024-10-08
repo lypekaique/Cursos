@@ -1,6 +1,8 @@
-body {
-  opacity: 74;
-}
+/* body {
+    background-color: #252525;
+    margin: 0; 
+    padding: 0; 
+} */
 #banner {
   background-image: url(banner.png);
   background-color: rgb(28, 28, 29);
@@ -56,3 +58,61 @@ body {
   text-align: center;
   color: #31a8dd;
 }
+
+#course-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(28, 28, 29);
+}
+
+#title2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.57px;
+  letter-spacing: 0.19em;
+  text-align: left;
+}
+#p2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.78px;
+  text-align: center;
+  color: white;
+}
+.module {
+  width: 535px;
+  height: 51px;
+  padding: 16px;
+  margin: 10px;
+  gap: 10px;
+  border-radius: 57px;
+  border: 1px solid #33a8db;
+  background: #252525;
+  box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.4) inset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+span {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.78px;
+  color: #33a8db;
+}
+
+.p3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.78px;
+  color: white;
+  display: inline;
+}
+
